@@ -1,0 +1,138 @@
+/*백준단계별 문제 - 1단계 */
+
+//2557번 Hello World! 출력
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+
+//1000번 A+B
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int A = scan.nextInt();
+        int B = scan.nextInt();
+
+        System.out.println(A+B);
+
+        scan.close();
+    }
+}
+
+//1001번 A-B
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int A = scan.nextInt();
+        int B = scan.nextInt();
+
+        System.out.println(A-B);
+
+        scan.close();
+    }
+}
+
+//10998번 A*B
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int A = scan.nextInt();
+        int B = scan.nextInt();
+
+        System.out.println(A*B);
+
+        scan.close();
+    }
+}
+
+//1008번 A/B
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        double A = 0;
+        double B = 0;
+        
+        while(true) {
+            A = scan.nextInt();
+            B = scan.nextInt();
+            if(0<A && B<10) {
+                    break;
+                }
+        }
+        System.out.println(A/B);
+        scan.close();
+    }
+}
+
+//10869번 A+B, A-B, A*B, A/B(몫), A%B(나머지)
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int A = 0;
+        int B = 0;
+        
+        A = scan.nextInt();
+        B = scan.nextInt();
+        System.out.println(A+B);
+        System.out.println(A-B);
+        System.out.println(A*B);
+        System.out.println(A/B);
+        System.out.println(A%B);
+        scan.close();
+    }
+}    
+
+// 10926번 ??! id:joonas
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String A = scan.nextLine();
+        System.out.println(A+"??!");
+        scan.close();
+    }
+}
+
+//18108번 서기 연도를 알아보고 싶은 불기 연도 y가 주어진다. (1000 ≤ y ≤ 3000)
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int A = scan.nextInt();
+        System.out.println(A-543);
+        scan.close();
+    }
+}
+
+//3003번 킹, 퀸, 룩, 비숍, 나이트, 폰
+import java.util.Scanner;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] chess = {1, 1, 2, 2, 2, 8};
+        for(int i=0; i<6; i++) {
+            int now = sc.nextInt();
+            System.out.print((chess[i] - now) + " ");
+        }
+    }
+}
+
+
+
