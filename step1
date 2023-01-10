@@ -134,5 +134,83 @@ public class Main {
     }
 }
 
+//10430번 나머지
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        
+         Scanner scan = new Scanner(System.in);
+         int A = scan.nextInt();
+         int B = scan.nextInt();   
+         int C = scan.nextInt();      
+ 
+         System.out.println((A+B)%C);
+         System.out.println((A%C + B%C)%C);
+         System.out.println((A*B)%C);
+         System.out.println((A%C * B%C)%C);
+        
+    }
+}
+
+//2588번 곱셈
+import java.util.Scanner;
+ 
+public class Main {
+ 
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+ 
+		int A = in.nextInt();
+		String B = in.next();
+        
+		in.close();
+ 
+		System.out.println(A * (B.charAt(2) - '0'));
+		System.out.println(A * (B.charAt(1) - '0'));
+		System.out.println(A * (B.charAt(0) - '0'));
+		System.out.println(A * Integer.parseInt(B));
+ 
+	}
+}
+
+//10171번 고양이
+public class Main {
+ 
+	public static void main(String[] args) {
+
+            System.out.println("\\    /\\");
+            System.out.println(" )  ( ')");
+            System.out.println("(  /  )");
+            System.out.println(" \\(__)|");
+            
+	}
+}
+
+//10172번 개
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("|\\_/|");
+		System.out.println("|q p|   /}");
+		System.out.println("( 0 )\"\"\"\\");
+		System.out.println("|\"^\"`    |");
+		System.out.println("||_/=\\\\__|");    
+
+    }
+}
+
+//25083번 새싹
+
+public class Main {
+	public static void main(String[] args) {
+		String s = "         ,r'\"7\n" + 	
+				   "r`-_   ,'  ,/\n" + 		
+				   " \\. \". L_r'\n" + 		
+				   "   `~\\/\n" + 			
+				   "      |\n" + 			
+				   "      |";
+ 
+		System.out.print(s);
+	}
+}
 
 
